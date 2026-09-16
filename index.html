@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700;800;900&amp;family=Work+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+        "primary-container": "#dc2626",
+        "on-primary-fixed": "#410002",
+        "tertiary-fixed-dim": "#3de273",
+        "on-tertiary": "#003915",
+        "surface": "#161311",
+        "on-secondary-fixed-variant": "#653e00",
+        "on-secondary-container": "#5b3800",
+        "background": "#161311",
+        "error-container": "#93000a",
+        "on-error": "#690005",
+        "error": "#ffb4ab",
+        "outline-variant": "#5c403c",
+        "tertiary-container": "#00843a",
+        "on-primary-container": "#fff6f5",
+        "on-surface-variant": "#e6bdb8",
+        "secondary-container": "#ee9800",
+        "on-tertiary-fixed-variant": "#005322",
+        "on-background": "#eae1dd",
+        "secondary-fixed": "#ffddb8",
+        "primary": "#ffb4ab",
+        "secondary": "#ffb95f",
+        "outline": "#ac8884",
+        "surface-dim": "#161311",
+        "on-surface": "#eae1dd",
+        "inverse-surface": "#eae1dd",
+        "tertiary-fixed": "#66ff8e",
+        "on-primary-fixed-variant": "#93000b",
+        "on-primary": "#690005",
+        "inverse-primary": "#bf0715",
+        "surface-container-high": "#2e2927",
+        "primary-fixed": "#ffdad6",
+        "on-error-container": "#ffdad6",
+        "surface-container-highest": "#393431",
+        "on-secondary-fixed": "#2a1700",
+        "on-tertiary-container": "#e7ffe5",
+        "surface-container-low": "#1f1b19",
+        "on-secondary": "#472a00",
+        "inverse-on-surface": "#342f2d",
+        "surface-bright": "#3d3836",
+        "primary-fixed-dim": "#ffb4ab",
+        "tertiary": "#3de273",
+        "surface-tint": "#ffb4ab",
+        "secondary-fixed-dim": "#ffb95f",
+        "surface-container": "#231f1d",
+        "surface-variant": "#393431",
+        "on-tertiary-fixed": "#002109",
+        "surface-container-lowest": "#110d0c"
+      },
+      "borderRadius": {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "full": "0.75rem"
+      },
+      "spacing": {
+        "gutter-md": "1.5rem",
+        "margin": "1rem",
+        "space-lg": "1.5rem",
+        "space-xs": "0.25rem",
+        "space-md": "1rem",
+        "gutter-lg": "2rem",
+        "space-xl": "2.5rem",
+        "margin-md": "2rem",
+        "margin-lg": "3rem",
+        "space-sm": "0.5rem",
+        "gutter": "1rem"
+      },
+      "fontFamily": {
+        "headline-lg": [
+          "Epilogue"
+        ],
+        "price-tag": [
+          "Epilogue"
+        ],
+        "headline-md": [
+          "Epilogue"
+        ],
+        "body-default": [
+          "Work Sans"
+        ],
+        "headline-lg-mobile": [
+          "Epilogue"
+        ],
+        "label-prominent": [
+          "Work Sans"
+        ],
+        "title-menu-category": [
+          "Epilogue"
+        ],
+        "body-lead": [
+          "Work Sans"
+        ],
+        "body-caption": [
+          "Work Sans"
+        ],
+        "display-hero": [
+          "Epilogue"
+        ]
+      },
+      "fontSize": {
+        "headline-lg": [
+          "32px",
+          {
+            "lineHeight": "38px",
+            "letterSpacing": "0.03em",
+            "fontWeight": "800"
+          }
+        ],
+        "price-tag": [
+          "18px",
+          {
+            "lineHeight": "22px",
+            "letterSpacing": "0.01em",
+            "fontWeight": "800"
+          }
+        ],
+        "headline-md": [
+          "22px",
+          {
+            "lineHeight": "28px",
+            "letterSpacing": "0.02em",
+            "fontWeight": "700"
+          }
+        ],
+        "body-default": [
+          "14px",
+          {
+            "lineHeight": "20px",
+            "letterSpacing": "0em",
+            "fontWeight": "400"
+          }
+        ],
+        "headline-lg-mobile": [
+          "26px",
+          {
+            "lineHeight": "32px",
+            "letterSpacing": "0.02em",
+            "fontWeight": "800"
+          }
+        ],
+        "label-prominent": [
+          "13px",
+          {
+            "lineHeight": "16px",
+            "letterSpacing": "0.06em",
+            "fontWeight": "700"
+          }
+        ],
+        "title-menu-category": [
+          "18px",
+          {
+            "lineHeight": "24px",
+            "letterSpacing": "0.08em",
+            "fontWeight": "800"
+          }
+        ],
+        "body-lead": [
+          "16px",
+          {
+            "lineHeight": "24px",
+            "letterSpacing": "0em",
+            "fontWeight": "500"
+          }
+        ],
+        "body-caption": [
+          "12px",
+          {
+            "lineHeight": "16px",
+            "letterSpacing": "0.01em",
+            "fontWeight": "400"
+          }
+        ],
+        "display-hero": [
+          "48px",
+          {
+            "lineHeight": "52px",
+            "letterSpacing": "0.04em",
+            "fontWeight": "900"
+          }
+        ]
+      }
+    }
+  }
+};</script></head><body class="bg-background font-body-default text-body-default text-on-surface selection:bg-primary-container selection:text-on-primary-container min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_4px_20px_rgba(0,0,0,0.5)]"><div class="h-20 max-w-7xl mx-auto px-gutter-md flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><div class="flex flex-col"><span class="font-headline-md text-headline-md tracking-wider text-on-surface uppercase">PARRILLA PITO 4</span><span class="font-body-caption text-body-caption text-secondary tracking-widest uppercase">Sabor de barrio, hecho con pasión</span></div></div><nav class="hidden md:flex items-center gap-space-md bg-surface-container-low/70 px-space-md py-space-xs rounded-lg shadow-[0_1px_8px_rgba(0,0,0,0.3)]" data-active-classes="bg-surface-container-high text-primary font-bold"><a aria-current="page" class="px-space-sm py-space-xs transition-colors uppercase tracking-wider bg-surface-container-high text-primary font-bold" data-path="promos" href="#">Promos</a><a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface transition-colors uppercase tracking-wider font-label-prominent text-label-prominent" data-path="menu-completo" href="#">Menú Completo</a><a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface transition-colors uppercase tracking-wider font-label-prominent text-label-prominent" data-path="ubicacion-y-horarios" href="#">Ubicación &amp; Horarios</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center gap-space-xs bg-tertiary-container hover:bg-tertiary text-on-tertiary-container hover:text-on-tertiary font-label-prominent text-label-prominent uppercase tracking-wide px-space-md py-space-sm rounded-lg transition-all shadow-[0_4px_16px_-2px_rgba(37,211,102,0.4)]" href="https://wa.me/541166221387" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-base">chat</span><span>WhatsApp Directo</span></a><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WHGkSnWFv4tuxKOj-jLTZ0-aBs7lQXq99pyEgGdPUY-0i4fIj0mQjcT_MidJ29kVMVR2uXRjUcweeqVluQbXLf0WengBK-ay5n64L0FT3LKy4ntmHMggwfbe76KY2HcciQeJtTxFD1g6MblDnHoubh5rDHTmHc6i5B0cXWtFo1z2_34tb0zKpopaTo9PYqgNGV7izTd2B2he5F1ugyyUgt94Uw43WbImj3NVu688HDyGUSxceRIpcw-RCeQjrsR6_WqSjfquhsdKw"/></div></div></header><main class="w-full pt-20 bg-background min-h-[calc(100vh-20rem)] pb-20 md:pb-0"><div class="flex flex-col w-full">
+<!-- HERO SECTION CON ESTÉTICA DE BODEGÓN Y BRASAS -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest py-space-xl px-gutter-md md:py-24">
+<!-- Resplandor sutil de brasas de fondo -->
+<div class="absolute -top-24 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-primary-container/15 blur-[120px] rounded-full pointer-events-none"></div>
+<div class="absolute -bottom-24 right-10 w-96 h-96 bg-secondary/10 blur-[100px] rounded-full pointer-events-none"></div>
+<div class="max-w-7xl mx-auto relative z-10 flex flex-col items-center text-center">
+<!-- Cartel Vintage Insignia Bodegón -->
+<div class="inline-flex items-center gap-space-xs bg-surface-container-high px-space-md py-space-xs rounded-full shadow-md mb-space-md">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+<span class="font-label-prominent text-label-prominent text-secondary tracking-widest uppercase">Tradición Porteña al Carbón de Quebracho</span>
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+</div>
+<!-- Titular de Impacto Pito 4 -->
+<div class="flex flex-col items-center">
+<span class="font-headline-md text-headline-md tracking-widest text-secondary uppercase font-bold">Parrilla de Barrio</span>
+<h1 class="font-display-hero text-display-hero text-on-surface uppercase tracking-tight text-5xl md:text-7xl lg:text-8xl font-black drop-shadow-md my-space-xs">
+          PARRILLA <span class="text-primary-container inline-block transform -rotate-1">PITO 4</span>
+</h1>
+<p class="font-headline-md text-headline-md text-on-surface-variant italic font-serif max-w-xl">
+          “Sabor de barrio, hecho con pasión”
+        </p>
+</div>
+<!-- Banner de Promoción 10% Efectivo con borde artesanal -->
+<div class="mt-space-lg w-full max-w-2xl bg-surface-container-high p-space-md rounded-xl shadow-xl flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm text-left">
+<div class="w-12 h-12 rounded-lg bg-secondary/20 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-secondary text-2xl" style="font-variation-settings: 'FILL' 1;">payments</span>
+</div>
+<div>
+<span class="inline-block bg-primary-container text-on-primary-container font-label-prominent text-label-prominent px-space-xs py-0.5 rounded uppercase tracking-wider">Ahorro en Efectivo</span>
+<p class="font-headline-md text-headline-md text-on-surface font-extrabold mt-0.5">10% DE DESCUENTO</p>
+</div>
+</div>
+<div class="text-center sm:text-right">
+<p class="font-body-default text-body-default text-on-surface-variant">Abonando en efectivo</p>
+<p class="font-price-tag text-price-tag text-secondary font-black">A partir de $40.000</p>
+</div>
+</div>
+<!-- Botón CTA WhatsApp Directo + Badges Rápidos -->
+<div class="mt-space-lg flex flex-col sm:flex-row items-center gap-space-md w-full justify-center">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-space-sm bg-tertiary-container hover:bg-tertiary text-on-tertiary-container hover:text-on-tertiary font-headline-md text-price-tag uppercase tracking-wide px-space-xl py-space-md rounded-lg shadow-xl transition-all duration-200 hover:scale-[1.02]" href="https://wa.me/5491166221387" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">chat</span>
+<span>Pedir por WhatsApp (11 6622-1387)</span>
+</a>
+</div>
+<!-- Badges Rápidos de Localización -->
+<div class="mt-space-lg flex flex-wrap items-center justify-center gap-space-sm text-on-surface-variant font-label-prominent text-label-prominent">
+<div class="flex items-center gap-space-xs bg-surface-container px-space-md py-space-xs rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-primary-container text-base">pin_drop</span>
+<span>Cucha Cucha 2601 (Esq. Juan A. García)</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container px-space-md py-space-xs rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-secondary text-base">schedule</span>
+<span>Lunes a Sábados de 12:00 a 16:00 hs</span>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container px-space-md py-space-xs rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-tertiary text-base">moped</span>
+<span>Take Away &amp; Envíos</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 1: PROMOS SANDWICHES (PIZARRA VINTAGE DE LA FOTO 1) -->
+<section class="w-full py-space-xl px-gutter-md bg-surface" id="promos">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<!-- Encabezado de Sección estilo Cartel de Madera y Fuego -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm pb-space-sm">
+<div>
+<div class="flex items-center gap-space-xs text-primary-container">
+<span class="material-symbols-outlined text-xl">lunch_dining</span>
+<span class="font-label-prominent text-label-prominent tracking-widest uppercase">Almuerzos al paso &amp; salón</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface uppercase tracking-wide mt-space-xs">
+            ★ PROMOS SÁNDWICHES ★
+          </h2>
+<p class="font-body-lead text-body-lead text-on-surface-variant mt-1">
+            Todas las opciones incluyen porción de papas fritas crocantes + bebida fresca de 500cc.
+          </p>
+</div>
+<span class="font-body-caption text-body-caption text-secondary uppercase tracking-widest bg-surface-container-high px-space-sm py-space-xs rounded-lg self-start md:self-auto">
+          Fiel a la pizarra diaria
+        </span>
+</div>
+<!-- Grilla de Promos Sándwiches -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Promo 1: Choripán -->
+<div class="bg-surface-container-low hover:bg-surface-container p-space-md rounded-xl shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="bg-primary-container/20 text-primary font-label-prominent text-label-prominent px-space-xs py-0.5 rounded uppercase">1º Promo Clásica</span>
+<span class="font-price-tag text-headline-md text-secondary font-black">$9.000</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-primary transition-colors">
+              Choripán + Papas + Bebida
+            </h3>
+<p class="font-body-default text-body-default text-on-surface-variant">
+              Auténtico chorizo puro cerdo a las brasas de quebracho, pan crujiente, papas doradas y bebida 500cc.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-prominent text-label-prominent uppercase tracking-wider py-space-sm px-space-md rounded-lg transition-all shadow-sm" onclick="agregarAlPedido('1º Promo Choripán + Papas + Bebida', 9000)">
+<span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+<span>Pedir Promo</span>
+</button>
+</div>
+<!-- Promo 2: Morcipán -->
+<div class="bg-surface-container-low hover:bg-surface-container p-space-md rounded-xl shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="bg-primary-container/20 text-primary font-label-prominent text-label-prominent px-space-xs py-0.5 rounded uppercase">1º Promo</span>
+<span class="font-price-tag text-headline-md text-secondary font-black">$9.000</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-primary transition-colors">
+              Morcipán + Papas + Bebida
+            </h3>
+<p class="font-body-default text-body-default text-on-surface-variant">
+              Morcilla bombón asada a punto con chimichurri casero, pan artesanal, papas fritas y bebida.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-prominent text-label-prominent uppercase tracking-wider py-space-sm px-space-md rounded-lg transition-all shadow-sm" onclick="agregarAlPedido('1º Promo Morcipán + Papas + Bebida', 9000)">
+<span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+<span>Pedir Promo</span>
+</button>
+</div>
+<!-- Promo 3: Chinchuipán -->
+<div class="bg-surface-container-low hover:bg-surface-container p-space-md rounded-xl shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="bg-secondary-container/30 text-secondary font-label-prominent text-label-prominent px-space-xs py-0.5 rounded uppercase">Especial Parrillero</span>
+<span class="font-price-tag text-headline-md text-secondary font-black">$9.000</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-primary transition-colors">
+              Chinchuipán + Papas + Bebida
+            </h3>
+<p class="font-body-default text-body-default text-on-surface-variant">
+              Chinchulines crocantes con limón en sándwich caliente de pan francés recién horneado, papas y bebida.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-prominent text-label-prominent uppercase tracking-wider py-space-sm px-space-md rounded-lg transition-all shadow-sm" onclick="agregarAlPedido('1º Promo Chinchuipán + Papas + Bebida', 9000)">
+<span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+<span>Pedir Promo</span>
+</button>
+</div>
+<!-- Promo 4: Milanesa -->
+<div class="bg-surface-container-low hover:bg-surface-container p-space-md rounded-xl shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="bg-primary-container/20 text-primary font-label-prominent text-label-prominent px-space-xs py-0.5 rounded uppercase">Favorito Porteño</span>
+<span class="font-price-tag text-headline-md text-secondary font-black">$12.000</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-primary transition-colors">
+              Sándwich Milanesa + Papas + Bebida
+            </h3>
+<p class="font-body-default text-body-default text-on-surface-variant">
+              Milanesa de carne tiernizada, dorada y crujiente en pan baguete, acompañada de papas y gaseosa 500cc.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-prominent text-label-prominent uppercase tracking-wider py-space-sm px-space-md rounded-lg transition-all shadow-sm" onclick="agregarAlPedido('1º Promo Sándwich Milanesa + Papas + Bebida', 12000)">
+<span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+<span>Pedir Promo</span>
+</button>
+</div>
+<!-- Promo 5: Bondiola -->
+<div class="bg-surface-container-low hover:bg-surface-container p-space-md rounded-xl shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="bg-primary-container/20 text-primary font-label-prominent text-label-prominent px-space-xs py-0.5 rounded uppercase">1º Promo Estrella</span>
+<span class="font-price-tag text-headline-md text-secondary font-black">$12.000</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-primary transition-colors">
+              Sándwich Bondiola + Papas + Bebida
+            </h3>
+<p class="font-body-default text-body-default text-on-surface-variant">
+              Bondiola de cerdo a la parrilla, tierna y jugosa con aderezo a elección, papas fritas y bebida.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-prominent text-label-prominent uppercase tracking-wider py-space-sm px-space-md rounded-lg transition-all shadow-sm" onclick="agregarAlPedido('1º Promo Sándwich Bondiola + Papas + Bebida', 12000)">
+<span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+<span>Pedir Promo</span>
+</button>
+</div>
+<!-- Promo 6: Hamburguesa -->
+<div class="bg-surface-container-low hover:bg-surface-container p-space-md rounded-xl shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="bg-primary-container/20 text-primary font-label-prominent text-label-prominent px-space-xs py-0.5 rounded uppercase">1º Promo</span>
+<span class="font-price-tag text-headline-md text-secondary font-black">$11.000</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-primary transition-colors">
+              Hamburguesa + Papas + Bebida
+            </h3>
+<p class="font-body-default text-body-default text-on-surface-variant">
+              Carne seleccionada a la chapa y brasas, pan tostado con manteca, guarnición abundante de papas y bebida.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-prominent text-label-prominent uppercase tracking-wider py-space-sm px-space-md rounded-lg transition-all shadow-sm" onclick="agregarAlPedido('1º Promo Hamburguesa + Papas + Bebida', 11000)">
+<span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+<span>Pedir Promo</span>
+</button>
+</div>
+<!-- Promo 7: Churrasquito -->
+<div class="bg-surface-container-low hover:bg-surface-container p-space-md rounded-xl shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="bg-primary-container/20 text-primary font-label-prominent text-label-prominent px-space-xs py-0.5 rounded uppercase">1º Promo</span>
+<span class="font-price-tag text-headline-md text-secondary font-black">$12.000</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-primary transition-colors">
+              Churrasquito + Papas + Bebida
+            </h3>
+<p class="font-body-default text-body-default text-on-surface-variant">
+              Corte tierno de carne vacuna a punto con sal parrillera, pan crocante, papas y bebida fría.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-prominent text-label-prominent uppercase tracking-wider py-space-sm px-space-md rounded-lg transition-all shadow-sm" onclick="agregarAlPedido('1º Promo Sándwich Churrasquito + Papas + Bebida', 12000)">
+<span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+<span>Pedir Promo</span>
+</button>
+</div>
+<!-- Promo 8: Pollo -->
+<div class="bg-surface-container-low hover:bg-surface-container p-space-md rounded-xl shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="bg-primary-container/20 text-primary font-label-prominent text-label-prominent px-space-xs py-0.5 rounded uppercase">1º Promo</span>
+<span class="font-price-tag text-headline-md text-secondary font-black">$12.000</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-primary transition-colors">
+              Sándwich Pollo + Papas + Bebida
+            </h3>
+<p class="font-body-default text-body-default text-on-surface-variant">
+              Pechuga marinada asada al carbón, tierna y jugosa con aderezo criollo, papas fritas y bebida.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-prominent text-label-prominent uppercase tracking-wider py-space-sm px-space-md rounded-lg transition-all shadow-sm" onclick="agregarAlPedido('1º Promo Sándwich Pollo + Papas + Bebida', 12000)">
+<span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+<span>Pedir Promo</span>
+</button>
+</div>
+<!-- Promo 9: Suprema -->
+<div class="bg-surface-container-low hover:bg-surface-container p-space-md rounded-xl shadow-md transition-all flex flex-col justify-between gap-space-md group">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="bg-primary-container/20 text-primary font-label-prominent text-label-prominent px-space-xs py-0.5 rounded uppercase">1º Promo</span>
+<span class="font-price-tag text-headline-md text-secondary font-black">$12.000</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface uppercase group-hover:text-primary transition-colors">
+              Sándwich Suprema + Papas + Bebida
+            </h3>
+<p class="font-body-default text-body-default text-on-surface-variant">
+              Milanesa de pechuga suprema rebozada artesanalmente, frita a la perfección con papas y gaseosa.
+            </p>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-prominent text-label-prominent uppercase tracking-wider py-space-sm px-space-md rounded-lg transition-all shadow-sm" onclick="agregarAlPedido('1º Promo Sándwich Suprema + Papas + Bebida', 12000)">
+<span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+<span>Pedir Promo</span>
+</button>
+</div>
+<!-- Promo 10: Vacío Especial -->
+<div class="bg-surface-container-low hover:bg-surface-container p-space-md rounded-xl shadow-md transition-all flex flex-col justify-between gap-space-md group md:col-span-2 lg:col-span-3">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="bg-secondary text-on-secondary-container font-label-prominent text-label-prominent px-space-xs py-0.5 rounded uppercase font-black">Corte Premium</span>
+<span class="text-secondary font-body-caption text-body-caption">Cocción lenta a las brasas</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface uppercase mt-1 group-hover:text-primary transition-colors">
+                1º Promo Sándwich Vacío + Papas + Bebida
+              </h3>
+<p class="font-body-default text-body-default text-on-surface-variant max-w-2xl mt-1">
+                El rey de la parrilla porteña: vacío desgrasado y cocido pacientemente al fuego, súper tierno, en pan crocante con chimichurri o salsa criolla, papas fritas y bebida fría.
+              </p>
+</div>
+<div class="flex flex-row md:flex-col items-center md:items-end justify-between gap-space-sm">
+<span class="font-price-tag text-headline-lg text-secondary font-black">$15.000</span>
+<button class="inline-flex items-center justify-center gap-space-xs bg-primary-container hover:bg-primary text-on-primary-container hover:text-on-primary font-label-prominent text-label-prominent uppercase tracking-wider py-space-sm px-space-lg rounded-lg transition-all shadow-md" onclick="agregarAlPedido('1º Promo Sándwich Vacío + Papas + Bebida', 15000)">
+<span class="material-symbols-outlined text-lg">add_shopping_cart</span>
+<span>Pedir Promo</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 2: CARTA COMPLETA (PIZARRA BODEGÓN DE LA FOTO 2) -->
+<section class="w-full py-space-xl px-gutter-md bg-surface-container-lowest" id="menu-completo">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<!-- Título de Menú Completo -->
+<div class="flex flex-col items-center text-center">
+<span class="font-label-prominent text-label-prominent text-secondary tracking-widest uppercase">Tradición &amp; Calidad</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface uppercase tracking-wide mt-1">
+          LA CARTA COMPLETA DE PARRILLA PITO 4
+        </h2>
+<p class="font-body-lead text-body-lead text-on-surface-variant max-w-2xl mt-1">
+          Precios actualizados de pizarra. Elegí por categoría o recorré todas nuestras especialidades.
+        </p>
+</div>
+<!-- Barra de Filtros / Categorías con navegación táctil horizontal -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-sm no-scrollbar">
+<button class="categoria-tab active whitespace-nowrap px-space-md py-space-xs rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider bg-primary-container text-on-primary-container transition-all" onclick="filtrarCategoria('todas')">
+          Todas
+        </button>
+<button class="categoria-tab whitespace-nowrap px-space-md py-space-xs rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="filtrarCategoria('parrilla')">
+          Parrilla &amp; Tablas
+        </button>
+<button class="categoria-tab whitespace-nowrap px-space-md py-space-xs rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="filtrarCategoria('entradas')">
+          Entradas
+        </button>
+<button class="categoria-tab whitespace-nowrap px-space-md py-space-xs rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="filtrarCategoria('porciones')">
+          Porciones
+        </button>
+<button class="categoria-tab whitespace-nowrap px-space-md py-space-xs rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="filtrarCategoria('achuras')">
+          Achuras
+        </button>
+<button class="categoria-tab whitespace-nowrap px-space-md py-space-xs rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="filtrarCategoria('sandwiches')">
+          Sándwiches c/ Papas
+        </button>
+<button class="categoria-tab whitespace-nowrap px-space-md py-space-xs rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="filtrarCategoria('minutas')">
+          Minutas
+        </button>
+<button class="categoria-tab whitespace-nowrap px-space-md py-space-xs rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="filtrarCategoria('pastas')">
+          Pastas Caseras
+        </button>
+<button class="categoria-tab whitespace-nowrap px-space-md py-space-xs rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="filtrarCategoria('papas')">
+          Papas Fritas
+        </button>
+<button class="categoria-tab whitespace-nowrap px-space-md py-space-xs rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="filtrarCategoria('postres')">
+          Postres
+        </button>
+<button class="categoria-tab whitespace-nowrap px-space-md py-space-xs rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider bg-surface-container text-on-surface-variant hover:text-on-surface transition-all" onclick="filtrarCategoria('bebidas')">
+          Bebidas &amp; Tragos
+        </button>
+</div>
+<!-- Cuadrícula Modular de Tablas de Bodegón (Simulando la foto 2) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- BLOQUE: PARRILLA PARA COMPARTIR -->
+<div class="menu-bloque bg-surface-container-low p-space-md rounded-xl shadow-lg flex flex-col gap-space-md" data-cat="parrilla">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs text-primary-container">
+<span class="material-symbols-outlined text-xl">outdoor_grill</span>
+<h3 class="font-title-menu-category text-title-menu-category uppercase text-on-surface">Parrilla</h3>
+</div>
+<span class="font-body-caption text-body-caption text-secondary uppercase font-bold">Para Compartir</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="bg-surface-container-high/60 p-space-sm rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-start justify-between gap-space-xs">
+<div>
+<span class="font-label-prominent text-label-prominent text-primary uppercase">Promo para Compartir</span>
+<p class="font-body-caption text-body-caption text-on-surface-variant mt-0.5">2 Empanadas de carne + Asado, Bondiola, Bife de chorizo con papas y ensalada</p>
+</div>
+<span class="font-price-tag text-price-tag text-secondary font-black shrink-0">$70.000</span>
+</div>
+<button class="self-end mt-1 text-xs uppercase font-bold text-tertiary-fixed-dim hover:underline flex items-center gap-1" onclick="agregarAlPedido('Promo para Compartir (Parrilla)', 70000)">
+<span>+ Agregar</span>
+</button>
+</div>
+<div class="bg-surface-container-high/60 p-space-sm rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-start justify-between gap-space-xs">
+<div>
+<span class="font-headline-md text-headline-md text-on-surface uppercase">Parrillada para 2</span>
+<p class="font-body-caption text-body-caption text-on-surface-variant mt-0.5">Chorizo, morcilla, riñón, chinchulín, asado, pollo con papas y ensalada</p>
+</div>
+<span class="font-price-tag text-price-tag text-secondary font-black shrink-0">$45.000</span>
+</div>
+<button class="self-end mt-1 text-xs uppercase font-bold text-tertiary-fixed-dim hover:underline flex items-center gap-1" onclick="agregarAlPedido('Parrillada para 2', 45000)">
+<span>+ Agregar</span>
+</button>
+</div>
+<div class="bg-surface-container-high/60 p-space-sm rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-start justify-between gap-space-xs">
+<div>
+<span class="font-headline-md text-headline-md text-on-surface uppercase">Parrillada para 4</span>
+<p class="font-body-caption text-body-caption text-on-surface-variant mt-0.5">2 chorizos, 2 morcillas, chinchulín, riñón, asado, pollo, bondiola, vacío, bife de chorizo con papas y ensalada</p>
+</div>
+<span class="font-price-tag text-price-tag text-secondary font-black shrink-0">$80.000</span>
+</div>
+<button class="self-end mt-1 text-xs uppercase font-bold text-tertiary-fixed-dim hover:underline flex items-center gap-1" onclick="agregarAlPedido('Parrillada para 4', 80000)">
+<span>+ Agregar</span>
+</button>
+</div>
+<div class="bg-surface-container-high/60 p-space-sm rounded-lg flex flex-col gap-space-xs">
+<div class="flex items-start justify-between gap-space-xs">
+<div>
+<span class="font-headline-md text-headline-md text-on-surface uppercase">Tabla de Achuras</span>
+<p class="font-body-caption text-body-caption text-on-surface-variant mt-0.5">Chorizo, morcilla, riñón, chinchulín, provoleta con papas y ensalada</p>
+</div>
+<span class="font-price-tag text-price-tag text-secondary font-black shrink-0">$40.000</span>
+</div>
+<button class="self-end mt-1 text-xs uppercase font-bold text-tertiary-fixed-dim hover:underline flex items-center gap-1" onclick="agregarAlPedido('Tabla de Achuras', 40000)">
+<span>+ Agregar</span>
+</button>
+</div>
+</div>
+</div>
+<!-- BLOQUE: ENTRADAS & ENSALADAS -->
+<div class="menu-bloque bg-surface-container-low p-space-md rounded-xl shadow-lg flex flex-col gap-space-md" data-cat="entradas">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs text-primary-container">
+<span class="material-symbols-outlined text-xl">tapas</span>
+<h3 class="font-title-menu-category text-title-menu-category uppercase text-on-surface">Entradas &amp; Ensaladas</h3>
+</div>
+<span class="font-body-caption text-body-caption text-secondary uppercase font-bold">Bodegón</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-lead text-body-lead text-on-surface">Provoleta</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$9.600</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Provoleta', 9600)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex flex-col py-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-body-lead text-body-lead text-on-surface font-bold">Provoleta Pito 4</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$13.500</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Provoleta Pito 4 (Especial)', 13500)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<span class="font-body-caption text-body-caption text-on-surface-variant">Jamón, morrón, cebolla caramelizada y huevo</span>
+</div>
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-lead text-body-lead text-on-surface">Empanadas de Carne Fritas</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$2.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Empanada de Carne Frita', 2000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="pt-space-xs">
+<span class="font-label-prominent text-label-prominent text-secondary uppercase tracking-widest block mb-space-xs">Ensaladas</span>
+<div class="flex items-center justify-between py-space-xs">
+<div>
+<span class="font-body-default text-body-default text-on-surface">Ensalada para armar (Chica)</span>
+<p class="font-body-caption text-body-caption text-on-surface-variant">Lechuga, tomate, cebolla, zanahoria, huevo, papa, choclo, arvejas</p>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$7.500</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Ensalada para armar Chica', 7500)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-default text-body-default text-on-surface">Ensalada para armar (Grande)</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$9.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Ensalada para armar Grande', 9000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-default text-body-default text-on-surface">Ensalada Rusa Casera</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$9.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Ensalada Rusa', 9000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- BLOQUE: MINUTAS & PASTAS -->
+<div class="menu-bloque bg-surface-container-low p-space-md rounded-xl shadow-lg flex flex-col gap-space-md" data-cat="minutas">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs text-primary-container">
+<span class="material-symbols-outlined text-xl">restaurant</span>
+<h3 class="font-title-menu-category text-title-menu-category uppercase text-on-surface">Minutas &amp; Pastas</h3>
+</div>
+<span class="font-body-caption text-body-caption text-secondary uppercase font-bold">Cocina Casera</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-prominent text-label-prominent text-secondary uppercase tracking-widest block">Milanesas / Supremas</span>
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-default text-body-default text-on-surface">Con Guarnición</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$15.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Milanesa/Suprema con Guarnición', 15000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-default text-body-default text-on-surface">A Caballo con Fritas</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$17.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Milanesa/Suprema A Caballo con Fritas', 17000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-default text-body-default text-on-surface">Napolitana con Guarnición</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$18.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Milanesa/Suprema Napolitana con Guarnición', 18000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-space-xs">
+<span class="font-body-default text-body-default text-on-surface">Sin Guarnición</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$9.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Milanesa/Suprema Sin Guarnición', 9000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="pt-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-prominent text-label-prominent text-secondary uppercase tracking-widest">Pastas Artesanales</span>
+<span class="font-price-tag text-price-tag text-secondary font-black">$16.000</span>
+</div>
+<p class="font-body-caption text-body-caption text-on-surface-variant mt-1">
+                Tallarines, Ñoquis, Canelones pollo y verdura, Crepes calabaza y muzzarella, Ravioles pollo verdura, Sorrentinos jamón y queso.
+              </p>
+<p class="font-body-caption text-body-caption text-primary mt-1 italic">
+                Salsas: Fileto, Crema, Mixta, Rosa, Pesto, Boloñesa, Scarp'aro, Parisienne, Estofado Carne/Pollo.
+              </p>
+<button class="w-full mt-space-xs bg-surface-container-high py-space-xs rounded font-label-prominent text-label-prominent text-on-surface hover:text-secondary uppercase" onclick="agregarAlPedido('Plato de Pastas Artesanales (a elección)', 16000)">
+                + Agregar Pasta
+              </button>
+</div>
+</div>
+</div>
+<!-- BLOQUE: PORCIONES A LAS BRASAS -->
+<div class="menu-bloque bg-surface-container-low p-space-md rounded-xl shadow-lg flex flex-col gap-space-md" data-cat="porciones">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs text-primary-container">
+<span class="material-symbols-outlined text-xl">kebab_dining</span>
+<h3 class="font-title-menu-category text-title-menu-category uppercase text-on-surface">Porciones</h3>
+</div>
+<span class="font-body-caption text-body-caption text-secondary uppercase font-bold">Cortes Parrilleros</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Asado</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$25.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Porción Asado', 25000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Vacío</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$30.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Porción Vacío', 30000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Bondiola</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$23.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Porción Bondiola', 23000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Bife de Chorizo 250g c/ Guarnición</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$23.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Bife de Chorizo 250g con guarnición', 23000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Bife de Chorizo 400g c/ Guarnición</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$30.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Bife de Chorizo 400g con guarnición', 30000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">1/2 Pollo al Carbón</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$9.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('1/2 Pollo', 9000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">1/2 Asado</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$15.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('1/2 Asado', 15000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">1/2 Vacío</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$20.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('1/2 Vacío', 20000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">1/2 Bondiola</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$13.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('1/2 Bondiola', 13000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+</div>
+</div>
+<!-- BLOQUE: ACHURAS & PAPAS -->
+<div class="menu-bloque bg-surface-container-low p-space-md rounded-xl shadow-lg flex flex-col gap-space-md" data-cat="achuras">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs text-primary-container">
+<span class="material-symbols-outlined text-xl">skillet</span>
+<h3 class="font-title-menu-category text-title-menu-category uppercase text-on-surface">Achuras &amp; Papas</h3>
+</div>
+<span class="font-body-caption text-body-caption text-secondary uppercase font-bold">Parrilla &amp; Frituras</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-prominent text-label-prominent text-secondary uppercase tracking-widest block">Achuras</span>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Chorizo Puro Cerdo</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$4.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Chorizo', 4000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Morcilla Bombón</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$4.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Morcilla', 4000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Riñón al Limón</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$9.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Riñón', 9000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Chinchulín Crocante</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$9.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Chinchulín', 9000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">1/2 Riñón / 1/2 Chinchulín</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$7.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('1/2 Achura', 7000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<span class="font-label-prominent text-label-prominent text-secondary uppercase tracking-widest block pt-space-xs">Papas Fritas Especiales</span>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Papas A Caballo</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$11.800</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Papas A Caballo', 11800)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Provenzal (Chica/Grande)</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$7.600 / $9.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Papas Provenzal Grande', 9000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Cheddar y Panceta</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$10.000 / $11.800</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Papas Cheddar y Panceta Grande', 11800)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Cheddar, Panceta y Verdeo</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$10.700 / $12.600</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Papas Cheddar, Panceta y Verdeo Grande', 12600)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+</div>
+</div>
+<!-- BLOQUE: POSTRES & BEBIDAS & TRAGOS -->
+<div class="menu-bloque bg-surface-container-low p-space-md rounded-xl shadow-lg flex flex-col gap-space-md" data-cat="bebidas">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs text-primary-container">
+<span class="material-symbols-outlined text-xl">wine_bar</span>
+<h3 class="font-title-menu-category text-title-menu-category uppercase text-on-surface">Postres &amp; Bebidas</h3>
+</div>
+<span class="font-body-caption text-body-caption text-secondary uppercase font-bold">Para Cerrar</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-prominent text-label-prominent text-secondary uppercase tracking-widest block">Postres Clásicos</span>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Flan Casero</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$7.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Flan Casero', 7000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Panqueque Dulce de Leche</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$7.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Panqueque de Dulce de Leche', 7000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1 text-on-surface-variant font-body-caption text-body-caption">
+<span>Adicional Crema o Dulce de Leche</span>
+<span class="font-bold text-secondary">+$1.000</span>
+</div>
+<span class="font-label-prominent text-label-prominent text-secondary uppercase tracking-widest block pt-space-xs">Bebidas &amp; Tragos</span>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Pepsi / 7Up 500cc</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$3.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Pepsi / 7Up 500cc', 3000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Saborizadas 500cc / Agua</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$2.600</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Saborizada 500cc', 2600)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Cerveza Litro</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$9.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Cerveza Litro', 9000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Trago Fernet / Gancia</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$8.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Fernet / Gancia Copa', 8000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Jarra de Fernet / Gancia</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$16.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Jarra de Fernet / Gancia', 16000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+<div class="flex items-center justify-between py-1">
+<span class="font-body-default text-body-default text-on-surface">Vino de la Casa</span>
+<div class="flex items-center gap-space-sm">
+<span class="font-price-tag text-price-tag text-secondary font-bold">$12.000</span>
+<button class="text-tertiary-fixed-dim hover:text-tertiary" onclick="agregarAlPedido('Vino de la Casa', 12000)"><span class="material-symbols-outlined text-base">add_circle</span></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Resumen de Adicionales Porteños -->
+<div class="w-full bg-surface-container p-space-md rounded-xl flex flex-col md:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-2xl">tune</span>
+<div>
+<h4 class="font-headline-md text-headline-md text-on-surface uppercase">Personalizá tu plato</h4>
+<p class="font-body-caption text-body-caption text-on-surface-variant">Agranda tus papas (+$2.400) · Cheddar (+$1.200) · Panceta (+$1.200) · Huevo frito (+$1.200) · Jamón (+$1.200) · Queso (+$1.200)</p>
+</div>
+</div>
+<span class="font-label-prominent text-label-prominent text-secondary uppercase bg-surface-container-high px-space-md py-space-xs rounded-lg whitespace-nowrap">
+          Pedilo en tu mensaje
+        </span>
+</div>
+</div>
+</section>
+<!-- SECCIÓN 3: UBICACIÓN, MAPA & HORARIOS -->
+<section class="w-full py-space-xl px-gutter-md bg-surface" id="ubicacion-y-horarios">
+<div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-space-xl items-stretch">
+<!-- Información del Local -->
+<div class="flex-1 flex flex-col justify-between gap-space-lg bg-surface-container-low p-space-xl rounded-xl shadow-lg">
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs text-primary-container">
+<span class="material-symbols-outlined text-2xl">location_on</span>
+<span class="font-label-prominent text-label-prominent tracking-widest uppercase">Punto de Encuentro</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface uppercase font-black">
+            VENÍ A DISFRUTAR DEL MEJOR ASADO DE BARRIO
+          </h2>
+<p class="font-body-lead text-body-lead text-on-surface-variant">
+            Ubicados en el corazón de La Paternal y Villa General Mitre, donde el humo de quebracho y la buena carne se encuentran con el trato cercano de los bodegones de siempre.
+          </p>
+<div class="flex flex-col gap-space-md pt-space-xs">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0 text-primary-container">
+<span class="material-symbols-outlined text-xl">storefront</span>
+</div>
+<div>
+<span class="font-label-prominent text-label-prominent text-on-surface uppercase">Dirección</span>
+<p class="font-body-default text-body-default text-on-surface-variant">Cucha Cucha 2601, Esquina Juan Agustín García, CABA</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0 text-secondary">
+<span class="material-symbols-outlined text-xl">alarm</span>
+</div>
+<div>
+<span class="font-label-prominent text-label-prominent text-on-surface uppercase">Horarios de Atención</span>
+<p class="font-body-default text-body-default text-on-surface-variant">Lunes a Sábados: 12:00 a 16:00 hs (Almuerzos)</p>
+<p class="font-body-caption text-body-caption text-secondary">Domingos cerrado para prender el fuego con la familia</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0 text-tertiary">
+<span class="material-symbols-outlined text-xl">call</span>
+</div>
+<div>
+<span class="font-label-prominent text-label-prominent text-on-surface uppercase">WhatsApp para Pedidos</span>
+<p class="font-body-default text-body-default text-on-surface-variant">+54 11 6622-1387</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Enlaces Redes Sociales y Mapas -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-md">
+<a class="inline-flex items-center gap-space-xs bg-surface-container-high hover:bg-surface-bright text-on-surface px-space-md py-space-sm rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider transition-colors" href="https://maps.google.com/?q=Cucha+Cucha+2601+CABA" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">map</span>
+<span>Abrir en Google Maps</span>
+</a>
+<a class="inline-flex items-center gap-space-xs bg-surface-container-high hover:bg-surface-bright text-secondary px-space-md py-space-sm rounded-lg font-label-prominent text-label-prominent uppercase tracking-wider transition-colors" href="https://instagram.com/parrillapito4" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-base">photo_camera</span>
+<span>@parrillapito4</span>
+</a>
+</div>
+</div>
+<!-- Mapa Interactivo Integrado -->
+<div class="flex-1 min-h-[380px] bg-surface-container-low rounded-xl overflow-hidden shadow-lg flex flex-col">
+<div class="w-full h-full min-h-[360px] bg-cover bg-center relative" data-location="Cucha Cucha 2601, CABA, Argentina" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCVsVspNwTUu6o1SD9mLydxhYSXexoNjEa4kIImJv_OMAtPQrg0EngjRewVibbyk4vuyhGT5LL2A3R9cRV7OQzgLINuX4cLKQKQF9ppFrKJDnn2rTgR0282SlzaEaV6eGWYt6YSIuFsFBzcGGAkLRIA9ACd3fvV5xcxNmG1Xqpp9VnGhRaIRwCudCLAPJrOi_d4IGYgS2QwtE7WCoc6IIiDxHI69FkyGuG-B6P-X5gjzKVCmCIifYS8yA')">
+<!-- Pin decorativo sobre el mapa -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-transparent flex items-end p-space-md">
+<div class="bg-surface/95 backdrop-blur-sm p-space-sm rounded-lg shadow-xl flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary-container text-2xl">local_fire_department</span>
+<div>
+<span class="font-headline-md text-price-tag text-on-surface uppercase block font-black">Parrilla Pito 4</span>
+<span class="font-body-caption text-body-caption text-secondary">Cucha Cucha y J. A. García</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- WIDGET / CARRITO FLOTANTE INTERACTIVO PARA PEDIDOS RÁPIDOS -->
+<div class="fixed bottom-24 md:bottom-8 right-4 md:right-8 z-50 flex flex-col items-end" id="carrito-flotante">
+<!-- Mini Ventana Desplegable del Pedido -->
+<div class="hidden w-80 sm:w-96 bg-surface-container-high p-space-md rounded-xl shadow-2xl mb-space-sm flex flex-col gap-space-sm" id="carrito-detalle">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary-container text-lg">receipt_long</span>
+<span class="font-headline-md text-price-tag text-on-surface uppercase font-bold">Tu Pedido</span>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface" onclick="toggleCarrito()">
+<span class="material-symbols-outlined text-base">close</span>
+</button>
+</div>
+<div class="max-h-56 overflow-y-auto flex flex-col gap-space-xs py-space-xs no-scrollbar" id="carrito-items">
+<!-- Rellenado por JS -->
+<p class="font-body-caption text-body-caption text-on-surface-variant text-center py-4">No agregaste platos aún. ¡Seleccioná del menú!</p>
+</div>
+<div class="pt-space-xs flex flex-col gap-space-xs">
+<div class="flex items-center justify-between font-label-prominent text-label-prominent text-on-surface">
+<span>Subtotal estimado:</span>
+<span class="font-price-tag text-secondary text-base" id="carrito-total">$0</span>
+</div>
+<div class="text-xs text-tertiary-fixed-dim hidden" id="descuento-aviso">
+          ¡Aplica 10% OFF en efectivo por superar $40.000!
+        </div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs bg-tertiary-container hover:bg-tertiary text-on-tertiary-container hover:text-on-tertiary font-label-prominent text-label-prominent uppercase py-space-sm px-space-md rounded-lg shadow-md transition-colors mt-1" onclick="enviarPedidoWhatsApp()">
+<span class="material-symbols-outlined text-base">send</span>
+<span>Mandar Pedido por WhatsApp</span>
+</button>
+</div>
+</div>
+<!-- Botón Burbuja Flotante -->
+<button class="flex items-center gap-space-xs bg-primary-container hover:bg-primary text-on-primary-container hover:text-on-primary px-space-md py-space-sm rounded-full shadow-2xl transition-all hover:scale-105" onclick="toggleCarrito()">
+<span class="material-symbols-outlined text-xl">shopping_cart</span>
+<span class="font-label-prominent text-label-prominent uppercase tracking-wider font-bold">Pedido (<span id="carrito-contador">0</span>)</span>
+</button>
+</div>
+</div>
+<script>
+  let pedidoActual = [];
+
+  function agregarAlPedido(nombre, precio) {
+    const itemExistente = pedidoActual.find(i => i.nombre === nombre);
+    if (itemExistente) {
+      itemExistente.cantidad++;
+    } else {
+      pedidoActual.push({ nombre, precio, cantidad: 1 });
+    }
+    actualizarCarritoUI();
+    
+    // Feedback visual ligero abriendo o vibrando el contador
+    const badge = document.getElementById('carrito-contador');
+    badge.classList.add('scale-125');
+    setTimeout(() => badge.classList.remove('scale-125'), 200);
+  }
+
+  function eliminarItem(nombre) {
+    pedidoActual = pedidoActual.filter(i => i.nombre !== nombre);
+    actualizarCarritoUI();
+  }
+
+  function cambiarCantidad(nombre, delta) {
+    const item = pedidoActual.find(i => i.nombre === nombre);
+    if (item) {
+      item.cantidad += delta;
+      if (item.cantidad <= 0) {
+        eliminarItem(nombre);
+      } else {
+        actualizarCarritoUI();
+      }
+    }
+  }
+
+  function actualizarCarritoUI() {
+    const contenedor = document.getElementById('carrito-items');
+    const totalEl = document.getElementById('carrito-total');
+    const contadorEl = document.getElementById('carrito-contador');
+    const descuentoEl = document.getElementById('descuento-aviso');
+
+    let total = 0;
+    let cantTotal = 0;
+
+    if (pedidoActual.length === 0) {
+      contenedor.innerHTML = '<p class="font-body-caption text-body-caption text-on-surface-variant text-center py-4">No agregaste platos aún. ¡Seleccioná del menú!</p>';
+    } else {
+      contenedor.innerHTML = pedidoActual.map(item => {
+        total += item.precio * item.cantidad;
+        cantTotal += item.cantidad;
+        return `
+          <div class="flex items-center justify-between gap-2 text-xs py-1 bg-surface-container/50 px-2 rounded">
+            <div class="flex-1 truncate">
+              <span class="font-bold text-on-surface">${item.nombre}</span>
+              <span class="block text-secondary">$${(item.precio * item.cantidad).toLocaleString('es-AR')}</span>
+            </div>
+            <div class="flex items-center gap-1 shrink-0">
+              <button onclick="cambiarCantidad('${item.nombre}', -1)" class="w-5 h-5 flex items-center justify-center bg-surface-bright rounded text-on-surface">-</button>
+              <span class="font-bold px-1">${item.cantidad}</span>
+              <button onclick="cambiarCantidad('${item.nombre}', 1)" class="w-5 h-5 flex items-center justify-center bg-surface-bright rounded text-on-surface">+</button>
+              <button onclick="eliminarItem('${item.nombre}')" class="text-error ml-1"><span class="material-symbols-outlined text-sm">delete</span></button>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    totalEl.textContent = `$${total.toLocaleString('es-AR')}`;
+    contadorEl.textContent = cantTotal;
+
+    if (total >= 40000) {
+      descuentoEl.classList.remove('hidden');
+    } else {
+      descuentoEl.classList.add('hidden');
+    }
+  }
+
+  function toggleCarrito() {
+    const detalle = document.getElementById('carrito-detalle');
+    detalle.classList.toggle('hidden');
+  }
+
+  function enviarPedidoWhatsApp() {
+    if (pedidoActual.length === 0) {
+      alert("Por favor sumá al menos una promo o plato a tu pedido.");
+      return;
+    }
+
+    let total = pedidoActual.reduce((acc, curr) => acc + (curr.precio * curr.cantidad), 0);
+    let texto = "¡Hola Parrilla Pito 4! Quiero hacer el siguiente pedido:%0A%0A";
+    
+    pedidoActual.forEach(item => {
+      texto += `• ${item.cantidad}x ${item.nombre} ($${(item.precio * item.cantidad).toLocaleString('es-AR')})%0A`;
+    });
+
+    texto += `%0A*Total estimado:* $${total.toLocaleString('es-AR')}`;
+
+    if (total >= 40000) {
+      texto += "%0A*(Aplica 10% de descuento abonando en efectivo)*";
+    }
+
+    texto += "%0A%0A¿Me confirman demora para retirar o envío? ¡Muchas gracias!";
+
+    window.open(`https://wa.me/5491166221387?text=${texto}`, '_blank');
+  }
+
+  function filtrarCategoria(cat) {
+    // Actualizar tabs activas
+    document.querySelectorAll('.categoria-tab').forEach(tab => {
+      tab.classList.remove('bg-primary-container', 'text-on-primary-container');
+      tab.classList.add('bg-surface-container', 'text-on-surface-variant');
+    });
+
+    event.target.classList.remove('bg-surface-container', 'text-on-surface-variant');
+    event.target.classList.add('bg-primary-container', 'text-on-primary-container');
+
+    const bloques = document.querySelectorAll('.menu-bloque');
+    bloques.forEach(bloque => {
+      if (cat === 'todas' || bloque.dataset.cat === cat) {
+        bloque.style.display = 'flex';
+      } else {
+        bloque.style.display = 'none';
+      }
+    });
+  }
+</script></main><div class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-surface-container-lowest/95 backdrop-blur-md p-space-sm shadow-[0_-4px_16px_rgba(0,0,0,0.6)] flex items-center justify-between gap-space-sm"><div class="flex flex-col pl-space-xs"><span class="font-label-prominent text-label-prominent text-on-surface">¿Tenés hambre?</span><span class="font-body-caption text-body-caption text-secondary">+54 11 6622-1387</span></div><a class="flex-1 inline-flex items-center justify-center gap-space-xs bg-tertiary-container hover:bg-tertiary text-on-tertiary-container hover:text-on-tertiary font-label-prominent text-label-prominent uppercase py-space-sm px-space-md rounded-lg shadow-[0_4px_16px_-2px_rgba(37,211,102,0.4)]" href="https://wa.me/541166221387" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-base">chat</span><span>Pedir por WhatsApp</span></a></div><footer class="w-full bg-surface-container-lowest py-space-xl"><div class="max-w-7xl mx-auto px-gutter-md flex flex-col gap-space-lg"><div class="bg-surface-container-high/60 p-space-md rounded-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm text-secondary"><span class="material-symbols-outlined text-2xl">payments</span><span class="font-headline-md text-headline-md">10% DE DESCUENTO</span></div><p class="font-body-lead text-body-lead text-on-surface text-center md:text-right">Pagando en efectivo a partir de <strong>$40.000</strong></p></div><div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg"><div class="flex flex-col gap-space-sm"><span class="font-title-menu-category text-title-menu-category text-primary uppercase">Parrilla Pito 4</span><p class="font-body-default text-body-default text-on-surface-variant">Sabor auténtico de barrio al calor del carbón de quebracho. Calidad, porciones abundantes y cortes de primera.</p></div><div class="flex flex-col gap-space-sm"><span class="font-title-menu-category text-title-menu-category text-secondary uppercase">Ubicación &amp; Horarios</span><div class="flex items-start gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-sm pt-1 text-primary">pin_drop</span><span class="font-body-default text-body-default">Cucha Cucha 2601, Esquina Juan Agustín García, CABA</span></div><div class="flex items-start gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-sm pt-1 text-primary">schedule</span><span class="font-body-default text-body-default">Lunes a Sábados de 12 a 16 hs</span></div></div><div class="flex flex-col gap-space-sm"><span class="font-title-menu-category text-title-menu-category text-tertiary-fixed-dim uppercase">Pedidos &amp; Contacto</span><div class="flex items-center gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-sm text-tertiary-fixed-dim">call</span><span class="font-body-default text-body-default">+54 11 6622-1387</span></div><div class="flex items-center gap-space-xs text-on-surface-variant"><span class="material-symbols-outlined text-sm text-secondary">map</span><span class="font-body-default text-body-default">La Paternal / Villa Gral. Mitre</span></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-on-surface-variant font-body-caption text-body-caption"><p>© 2024 Parrilla Pito 4. Todos los derechos reservados.</p><p class="text-secondary">Tradición Porteña de Bodegón</p></div></div></footer></body></html>
